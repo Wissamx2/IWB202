@@ -1,0 +1,250 @@
+
+/* General Styles */
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+/* Contact Info Section Styles */
+.contact-info {
+  background-color: #f2f2f2;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info li strong {
+  display: block;
+  font-weight: bold;
+}
+
+
+
+.hero p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: -0.5px 0 0 #000000, 0 0.5px 0 #000000, 0.5px 0 0 #000000, 0 -0.5px 0 #000000, 0 0 1px #000;
+
+}
+
+/* About Us Section Styles */
+.about-us {
+  background-color: #fff;
+  
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+/* Header Styles */
+header {
+  background-color:  #ff7b00;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('https://wissamx2.github.io/IWB202/images/real_estate.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #ff7b00;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.home-button, .proreriies-button, .contact-button {
+  background-color: #ff7b00;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  .home-button,
+  .proreriies-button,
+  .contact-button {
+    font-size: 16px;
+  }
+}
+
+.arabic {
+  direction: rtl;
+}
+
+/*صفحة العقارات*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  }
+  table{
+      width: 100%;
+      border-spacing:opx;
+      
+  }
+  table th{
+      padding:15px;
+      background-color:#ff7b00d2;
+      border:1px solid #f00e0e;
+      border-color: #ffffff;
+      color:#312828;
+      }
+  table tr td{
+      background-color: #b3afeefc;
+      color:#000000;
+      text-align: center;
+      border-color: #ffffff;
+          }
+  .form-container {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .continue-Button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    background-color: #ff7b00;
+    color: #ffffff;
+  }
+  
+  .continue-Button:hover {
+      opacity: 0.8;
+      }
+  
+  .continue-Button-container {
+      text-align: center; 
+      padding: 20px;
+
+    }
+
+.properties-head-container {
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+
+/* الفورم */
+.form-container {
+  width: 400px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+
+label {
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  box-sizing: border-box; 
+}
+
+
+button[type="submit"] {
+  background-color: #ff7b00; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button[type="submit"]:hover {
+  opacity: 0.8; 
+}
