@@ -63,12 +63,14 @@ body {
 header {
   background-color:  #ff7b00;
   padding: 20px;
+  
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 nav ul {
@@ -76,6 +78,7 @@ nav ul {
   display: flex;
   margin: 0;
   padding: 0;
+  
 }
 
 nav li {
@@ -86,11 +89,13 @@ nav a {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
+  
+  
 }
 
 /* Hero Section Styles */
 .hero {
-  background-image: url('images/real_estate.jpg');
+  background-image: url('images/real_estate.png');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -274,7 +279,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 /* Hero Section Styles */
 .hero-home {
-  background-image: url('images/real_estate.jpg');
+  background-image: url('images/real_estate.png');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -296,10 +301,13 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #std-home{
   width: 200px;
-  height: 90px;
+  height: 110px;
   background-color: #ff7b00;
   border-radius: 10px;
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: gray 9px 6px 20px;
   color: #fff;
   font-size: 18px;
